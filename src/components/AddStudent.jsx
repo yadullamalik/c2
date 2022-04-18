@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import "./Student.css";
 
 export const AddStudent = () => {
   const [data, setData] = useState({
@@ -153,12 +154,12 @@ export const AddStudent = () => {
         // show this div with proper error before submitting form, if there's anything not provided
         // eg: first name missing, age cannot be greater than 100 etc
       }
-      {firstnameSubmit()}
+      {/* {firstnameSubmit()}
       {lastnameSubmit()}
       {emailSubmit()}
       {ageSubmit()}
       {tenthSubmit()}
-      {twelthSubmit()}
+      {twelthSubmit()} */}
     </form>
   );
 };
